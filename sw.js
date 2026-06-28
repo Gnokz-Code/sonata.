@@ -15,9 +15,9 @@ const THUMB_CACHE = `sonata-thumbs-${CACHE_VERSION}`;
 const SHELL_ASSETS = [
   './index.html',
   './manifest.json',
-  './icon-192.png',
-  './icon-512.png',
-  './icon-512-maskable.png'
+  './icons/icon-192-1.png',
+  './icons/icon-512-1.png',
+  './icons/icon-512-maskable.png'
 ];
 
 const NETWORK_ONLY_HOSTS = [
