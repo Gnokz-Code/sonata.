@@ -110,8 +110,3 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Same-origin navigation and app-shell assets.
-  if (url.origin === self.location.origin) {
-    event.respondWith(networkFirst(request, SHELL_CACHE));
-  }
-});
